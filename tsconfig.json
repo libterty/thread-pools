@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "baseUrl": "./",
+        "noImplicitAny": false,
+        "strictPropertyInitialization": false,
+        "sourceMap": false,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "dist",
+        "declaration": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        ".git",
+        ".cache",
+        "node_modules",
+        "logs"
+    ]
+}
