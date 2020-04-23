@@ -5,3 +5,7 @@ export interface Task<data, result> {
 export interface WorkerPool {
     createTask<data, result>(f: (d: data) => result): Task<data, result>;
 }
+
+export interface WorkerPoolOptions {
+    workers: number;
+}
