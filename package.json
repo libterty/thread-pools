@@ -12,7 +12,7 @@
   "dependencies": {
     "@types/node": "^8.10.38",
     "axios": "^0.19.2",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "rxjs": "^5.5.11",
     "ts-node": "^6.2.0",
     "typescript": "^3.1.1"
